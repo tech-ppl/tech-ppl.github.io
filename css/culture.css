@@ -56,20 +56,21 @@
 
 .wall-one {
   display: inline-block;
-  margin-left: 80px;
+  margin-left: 30px;
   text-align: center;
   position: relative;
-  width: 284px;
-  height: 284px;
+  width: 200px;
+  height: 280px;
   animation-name: appear;
   animation-duration: 1.2s;
+  /* border: 1px solid red; */
 }
 
 .wall-one a {
   position: relative;
   top: 50px;
   color: black;
-  overflow: hidden;
+  /* border: 1px solid red; */
 }
 
 .wall-img img {
