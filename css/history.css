@@ -1,0 +1,188 @@
+@keyframes move {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pinyi {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes moveXtwo {
+  from {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.menu .history {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), -2px -2px 2px white;
+}
+
+.menu {
+  position: relative;
+  top: 96px;
+  margin: 0 auto;
+  width: 1196px;
+  height: 66px;
+  font-size: 24px;
+  background-color: #f6f6f6;
+  border-radius: 6px;
+  transition: all 0.3s linear;
+}
+
+.menu:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+  margin-left: 120px;
+  line-height: 66px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 90px;
+}
+
+.menu a {
+  font-family: '楷体';
+  padding: 4px;
+  color: black;
+  transition: all 0.2s linear;
+  background-image: url(/index_images/简餐速食.png);
+}
+
+.menu li a:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), -2px -2px 2px white;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+
+.wall-two {
+  position: relative;
+  top: 96px;
+  width: 1200px;
+  height: 1800px;
+  background-color: white;
+}
+
+.big-box,
+.big-box_f {
+  margin-top: 50px;
+  width: 1200px;
+  height: 400px;
+  border-radius: 16px;
+  transition: all 0.5s linear;
+}
+
+.big-box:hover {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.big-box:hover img {
+  box-shadow: 8px 8px 8px #666;
+}
+
+.big-box_f:hover {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.big-box_f:hover img {
+  box-shadow: 8px 8px 8px #666;
+}
+
+.big-box {
+  background-color: #ece9e9;
+}
+
+.big-box_f {
+  background-color: #f7f7f7
+}
+
+.box-left,
+.box-f_right {
+  float: left;
+}
+
+.box-f_left,
+.box-right {
+  float: right;
+}
+
+.box-left,
+.box-f_left {
+  position: relative;
+  top: 30px;
+  margin-top: 20px;
+  width: 600px;
+  height: 300px;
+  animation-name: move;
+  animation-duration: 3s;
+
+}
+
+.box-left img,
+.box-f_left img {
+  position: relative;
+  top: 10px;
+  left: 56px;
+  width: 80%;
+  height: 90%;
+  border-radius: 16px;
+  transition: all 0.5s linear;
+}
+
+.box-right,
+.box-f_right {
+  position: relative;
+  top: 24px;
+  width: 600px;
+  height: 300px;
+
+}
+
+.box-right {
+  padding-left: 50px;
+  box-sizing: border-box;
+  animation-name: pinyi;
+  animation-duration: 1s;
+
+}
+
+.box-f_right {
+  padding-left: 100px;
+  box-sizing: border-box;
+  animation-name: moveXtwo;
+  animation-duration: 1s;
+}
+
+.box-right div,
+.box-f_right div {
+  width: 500px;
+  margin-top: 10%;
+}
+
+footer {
+  position: relative;
+  top: 98px;
+}
