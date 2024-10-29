@@ -41,6 +41,10 @@
   }
 }
 
+body {
+  position: relative;
+}
+
 .full_page {
   width: 1200px;
   height: auto;
@@ -326,6 +330,14 @@ button a {
 .table table em {
   font-size: 14px;
   color: #888;
+}
+
+audio {
+  display: block;
+  width: 200px;
+  position: absolute;
+  top: 26px;
+  left: 176px;
 }
 
 footer {
